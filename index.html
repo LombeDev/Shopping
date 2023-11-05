@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shopping App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Shopping App</h1>
+  <p>Contact me and give me a list of the things you want, and I will shop for you for a fee.</p>
+
+  <h3>Contact Information</h3>
+  <form action="/contact" method="post">
+    <input type="text" name="name" placeholder="Your name">
+    <input type="email" name="email" placeholder="Your email">
+    <textarea name="message" placeholder="Your message"></textarea>
+    <button type="submit">Send</button>
+  </form>
+
+  <h3>List of Items</h3>
+  <ul id="items"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
